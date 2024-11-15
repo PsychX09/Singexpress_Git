@@ -1,0 +1,95 @@
+body {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    background-image: url('/images/bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav a{
+    font-family: "DM Serif Display", serif; /* Apply font to navigation links */
+}
+
+.cus_fsize {
+    font-size: 30px;
+}
+.fontcustom_style {
+    color: rgb(255, 255, 255);
+}
+.fontcustom_style.active {
+    background-color: white; /* Set the background color for active links */
+    color: #363232; /* Change text color if needed */
+    padding: 0.5em; /* Optional: padding for better appearance */
+}
+.fontcustom_style:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.left_row{
+    width: 50%;
+    
+}
+.left_row_content{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.left_row_info{
+    display: flex;
+    flex-direction: column;
+
+}
+h1{
+    color: red;
+    font-family: Archivo Black, sans-serif;
+    font-size: 25px;
+}
+h3{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+.rent_button{
+    color: white;
+    background-color: #0097b2;
+    border-radius: 10px;
+    border-width: 2px;
+    font-weight: 500;
+}
+.details_button{
+    color: black;
+    background-color: #5cabb9;
+    border-radius: 10px;
+    border-width: 2px;
+    font-weight: 500;
+    width:100px;
+}
+.left_row_content{
+    width: 45%;
+    background: white;
+    border-radius: 20px;
+}
+.left_row_info{
+    width: 45%;
+}
+.left_row_info2{
+    width: 55%;
+}
+.img-1{
+    width: 120%;
+    
+}
+.img-1-content{
+    width: 200px;
+    height: 120px;
+    border-radius: 15px;
+
+}
+.img-1-content-last{
+    width: 150px;
+    height: 120px;
+    border-radius: 15px;
+
+}

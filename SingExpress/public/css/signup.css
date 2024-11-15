@@ -1,0 +1,45 @@
+body {
+    background-color: #1b1b1b;
+    width: 90%;
+    
+}
+h1 {
+    font-family: "Archivo Black", serif; /* Apply font to navigation links */
+    font-size: 33px;
+}
+.div_form {
+    width: 48%;
+}
+.input_signup {
+    width: 90%;
+}
+.signup_p {
+    font-size: 15px;
+    color: white;
+}
+.signup_btn {
+    width: 95%;
+    height: 50px;
+}
+.t_and_c {
+    color: #f8f9fa; /* Light color for text */
+    text-decoration: underline; /* Underline by default */
+    font-weight: bold; /* Bold font */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover effect */
+.t_and_c:hover {
+    color: #ffc107; /* Change color on hover */
+}
+.signup_pl{
+    color: #f8f9fa;
+    font-size: 18px;
+}
+.signup_p_a{
+    color: #f8f9fa;
+    font-size: 18px;
+}
+.signup_p_a:hover {
+    color: #ffc107; /* Change color on hover */
+}
